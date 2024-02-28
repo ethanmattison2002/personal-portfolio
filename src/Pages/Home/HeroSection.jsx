@@ -10,8 +10,8 @@ export default function HeroSection() {
 
     const img1 = './img/linkedin.png'
     const img2 = './img/linkedin-white.png'
-    const img3 = './img/phone.png'
-    const img4 = './img/phone-white.png'
+    const img3 = './img/github.png'
+    const img4 = './img/github-white.png'
 
     const ImageToggleOnMouseOver = ({primaryImg, secondaryImg}) => {
         const imageRef = useRef(null);
@@ -72,7 +72,7 @@ export default function HeroSection() {
                                     secondaryImg={img2}
                                     alt="" />
                             </a>
-                            <a target="_blank" href="tel:07511689306">
+                            <a target="_blank" href="https://github.com/ethanmattison2002">
                                 <ImageToggleOnMouseOver
                                     primaryImg={img3}
                                     secondaryImg={img4}

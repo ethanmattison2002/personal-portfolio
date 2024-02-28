@@ -982,9 +982,9 @@ footer > nav {
   }
 
   .hero--section--img > img {
-    left: -330px;
-    top: -100px;
-    width: 1000px;
+    left: -230px;
+    top: -69px;
+    width: 800px;
   }
 
   .about--details--container > .about--containers {
@@ -1177,8 +1177,8 @@ footer > nav {
   }
 
   .hero--section--img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     justify-content: space-evenly;
   }
