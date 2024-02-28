@@ -982,9 +982,9 @@ footer > nav {
   }
 
   .hero--section--img > img {
-    left: -230px;
-    top: -63px;
-    width: 800px;
+    left: -330px;
+    top: -100px;
+    width: 1000px;
   }
 
   .about--details--container > .about--containers {
@@ -1180,13 +1180,13 @@ footer > nav {
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    justify-content: space-evenly;
   }
 
   .hero--section--img > img {
     position: relative;
-    left: -65px;
+    left: unset;
     top: unset;
-    width: 550px;
   }
 
   .section--container {
@@ -1229,6 +1229,10 @@ footer > nav {
 
   .about--details {
     margin-bottom: 2rem;
+  }
+
+  .contact--col {
+    flex-direction: column-reverse;
   }
 }
 

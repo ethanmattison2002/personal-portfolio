@@ -33,20 +33,20 @@ export default function ContactMe() {
             </div>
             <form ref={form} onSubmit={sendEmail} className="contact--form--container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 contact--col">
                         <label htmlfor="first-name" className="contact--label">
                             <span className="text-md">First Name *</span>
                             <input type="text" placeholder="Enter your first name..." className="contact--input text-md" name="first-name" id="first-name" required/>
                         </label>
-                        <label htmlfor="user_email" className="contact--label">
-                            <span className="text-md">Email *</span>
-                            <input type="text" placeholder="Enter your email..." className="contact--input text-md" name="user_email" id="user_email" required/>
-                        </label>
-                    </div>
-                    <div className="col-md-6">
                         <label htmlfor="last-name" className="contact--label">
                             <span className="text-md">Last Name *</span>
                             <input type="text" placeholder="Enter your last name..." className="contact--input text-md" name="last-name" id="last-name" required/>
+                        </label>
+                    </div>
+                    <div className="col-md-6">
+                        <label htmlfor="user_email" className="contact--label">
+                            <span className="text-md">Email *</span>
+                            <input type="text" placeholder="Enter your email..." className="contact--input text-md" name="user_email" id="user_email" required/>
                         </label>
                         <label htmlfor="phone-number" className="contact--label">
                             <span className="text-md">Phone Number *</span>
