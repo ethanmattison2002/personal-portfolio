@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "src": "./img/visitnorthumberland.png",
+            "title": "Visit Northumberland",
+            "description": "Whilst working at Drummond Central I was part of a development team on this project where I was working on the front-end.",
+            "linkTitle": "View Project",
+            "link": "https://www.visitnorthumberland.com/"
+        },
+        {
+            "id": "2",
+            "src": "./img/coquetbooks.png",
+            "title": "Coquet Books",
+            "description": "Whilst at Lazy Grace I was able to build this website myself from back-end to front-end using PHP with codeigniter.",
+            "linkTitle": "View Project",
+            "link": "https://www.coquetbooks.com/"
+        },
+        {
+            "id": "3",
+            "src": "./img/dissertation.png",
+            "title": "Dissertation",
+            "description": "For my dissertation I used data analysis and visualisation tools within Python to investigate the performace of railway data from a real dataset.",
+            "linkTitle": "View Project",
+            "link": "./pdf/EthanMattison-Dissertation.pdf"
+        }
+    ]
+}
