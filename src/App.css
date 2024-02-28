@@ -1178,16 +1178,19 @@ footer > nav {
 
   .hero--section--img {
     width: 250px;
-    height: 250px;
     border-radius: 50%;
     justify-content: space-evenly;
+    height: 55vw;
+    justify-content: center;
+    display: flex;
+    
   }
 
   .hero--section--img > img {
     position: relative;
     left: unset;
     top: unset;
-    width: 500px;
+    width: auto;
   }
 
   .section--container {
