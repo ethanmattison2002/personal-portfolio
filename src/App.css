@@ -1187,6 +1187,7 @@ footer > nav {
     position: relative;
     left: unset;
     top: unset;
+    width: 500px;
   }
 
   .section--container {
