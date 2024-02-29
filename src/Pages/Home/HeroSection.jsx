@@ -34,7 +34,7 @@ export default function HeroSection() {
     return (
         <section id="heroSection" className="hero--section">
             <div className="col-md-6">
-            <div className="d-flex justify-content-end m-md-5">
+            <div className="d-flex justify-content-center justify-content-lg-end m-md-5">
                     <div className="hero--section--img">
                         <img src="./img/hero-img.jpeg" alt="Hero Section"></img>
                     </div>
