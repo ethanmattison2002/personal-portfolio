@@ -5,7 +5,7 @@ import React, { useRef } from 'react';
 export default function HeroSection() {
 
     const openCV = () => {
-        window.open('./pdf/EthanMattisonCV.pdf')
+        window.open('./pdf/EthanMattisonCV2024.pdf')
     }
 
     const img1 = './img/linkedin.png'
