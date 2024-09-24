@@ -26,9 +26,7 @@ export default function AboutMe() {
                             <p>BSc Computer Science &#40; First-Class Honours &#41; <br/>Newcastle University</p>
                         </div>
                     </div>
-                    <p className="hero--section-description">I'm an enthusiastic software engineer as well as data scientist and seeking job opportunities in both fields. Holding a First-Class Honors degree in Computer Science from Newcastle University. Backed by hands-on experience from apprenticeships and internships, I have a strong foundation in both front-end and back-end web development.</p>
-                    <p className="hero--section-description">In 2018 I began my software development career with an apprenticeship at Drummond Central. It was here that I learnt all the basics of coding as a web developer, learning skills like HTML, CSS, JS, version control as well as working withing development teams.</p>
-                    <p className="hero--section-description">Whilst at Univeristy I was able to expand my programming knowledge outside of web developmnent and venture into data science. After getting my University Degree with a first-class honours, I am now seeking a role as a full-time software developer.</p>
+                    <p className="hero--section-description">I'm an enthusiastic software engineer as well as data scientist and seeking job opportunities in both fields. Holding a First-Class Honors degree in Computer Science from Newcastle University. Backed by hands-on experience from apprenticeships and internships, I have a strong foundation in both front-end and back-end web development. I have also recently been given opportunities to explore the design side of web and software development giving me skills in every stage of the process.</p>
                 </div>
             </div>
             <Link class="scroll-down" to="MyExperience">

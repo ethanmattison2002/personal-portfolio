@@ -20,7 +20,7 @@
             "id": "3",
             "src": "./img/dissertation.png",
             "title": "Dissertation",
-            "description": "For my dissertation I used data analysis and visualisation tools within Python to investigate the performace of railway data from a real dataset.",
+            "description": "For my dissertation I used data analysis and visualisation tools within Python to investigate the performace of railway data from a dataset.",
             "linkTitle": "View Project",
             "link": "./pdf/EthanMattison-Dissertation.pdf"
         }
