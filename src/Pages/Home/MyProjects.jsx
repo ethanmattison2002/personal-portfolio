@@ -29,9 +29,6 @@ export default function MyProjects() {
                     ))}
                 </div>
             </div>
-            <Link class="scroll-down" to="ContactMe">
-                <img src="./img/arrow.png" alt="Icon Arrow"/>
-            </Link>
         </section>
     )
 }

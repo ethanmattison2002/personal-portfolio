@@ -18,7 +18,7 @@ export default function AboutMe() {
                         <div class="details--container about--details">
                             <img src="./img/portfolio.png" alt="Experience icon" class="icon"/>
                             <h3>Experience</h3>
-                            <p>3+ years <br/>Web Development</p>
+                            <p>5+ years <br/>Web Development</p>
                         </div>
                         <div class="details--container about--details">
                             <img src="./img/graduate.png" alt="Education icon" class="icon"/>
@@ -26,12 +26,11 @@ export default function AboutMe() {
                             <p>BSc Computer Science &#40; First-Class Honours &#41; <br/>Newcastle University</p>
                         </div>
                     </div>
-                    <p className="hero--section-description">I'm an enthusiastic software engineer as well as data scientist and seeking job opportunities in both fields. Holding a First-Class Honors degree in Computer Science from Newcastle University. Backed by hands-on experience from apprenticeships and internships, I have a strong foundation in both front-end and back-end web development. I have also recently been given opportunities to explore the design side of web and software development giving me skills in every stage of the process.</p>
+                    <p className="hero--section-description">
+                    I'm a Software Engineer specialising in front-end development, creating accessible and scalable web interfaces with React, Tailwind, and .NET. With a First-Class Honours degree in Computer Science and hands-on experience across multiple agencies, I’ve delivered high-traffic sites, contributed to CI/CD pipelines, and worked closely with designers and product teams to ship real user value.
+                    </p>                
                 </div>
             </div>
-            <Link class="scroll-down" to="MyExperience">
-                <img src="./img/arrow.png" alt="Icon Arrow"/>
-            </Link>
         </section>
     )
 }
