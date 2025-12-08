@@ -9,7 +9,7 @@ export default function MyProjects() {
                 <h1>Projects</h1>
             </div>
             <div className="project--section--container">
-                <div className="about--containers">
+                <div className="project--containers">
                     {data?.projects?.map((item, index)=> (
                         <div key={index} className="project--section--card">
                             <a target="_blank" href={item.link} className="project--section--img">

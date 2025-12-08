@@ -66,19 +66,22 @@ export default function HeroSection() {
                             <Link to="ContactMe" className="my-btn btn-primary">Contact</Link>
                         </div>
                         <div className="socials--container">
-                            <a target="_blank" href="https://www.linkedin.com/in/ethan-mattison-134bb5278/">
-                                <ImageToggleOnMouseOver
-                                    primaryImg={img1}
-                                    secondaryImg={img2}
-                                    alt="" />
+                            <a
+                                target="_blank"
+                                href="https://www.linkedin.com/in/ethan-mattison-134bb5278/"
+                                rel="noopener noreferrer"
+                            >
+                                <img src={img1} alt="LinkedIn" />
                             </a>
-                            <a target="_blank" href="https://github.com/ethanmattison2002">
-                                <ImageToggleOnMouseOver
-                                    primaryImg={img3}
-                                    secondaryImg={img4}
-                                    alt="" />
+
+                            <a
+                                target="_blank"
+                                href="https://github.com/ethanmattison2002"
+                                rel="noopener noreferrer"
+                            >
+                                <img src={img3} alt="GitHub" />
                             </a>
-                        </div>
+                            </div>
                     </div>
                 </div>
             </div>

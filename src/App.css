@@ -461,9 +461,23 @@ h3 {
 }
 
 .about--containers {
-  display: flex;
   gap: 1.5rem;
   margin: 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about--containers > .inner--about {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 1.5rem;
+}
+
+.project--containers {
+  gap: 1.5rem;
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .about--section--img--inner {
@@ -877,7 +891,7 @@ footer > nav {
   transition: all ease-in-out 0.2s;
 }
 
-@media (max-height: 900px) and (min-width: 580px) {
+@media (max-height: 991px) and (min-width: 580px) {
   .hero--section--img {
     width: 350px;
     height: 350px;
@@ -889,6 +903,8 @@ footer > nav {
 
   .about--containers {
     margin: 2rem 0;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .experience--sub--title {
@@ -948,6 +964,18 @@ footer > nav {
   .btn-outline-primary {
     display: none;
   }
+
+  .project--containers {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0rem;
+    margin: 0;
+  }
+
+  
+  .about--containers > .inner--about {
+    flex-direction: column;
+  }
+
   .hero--section {
     display: flex;
     flex-direction: column;

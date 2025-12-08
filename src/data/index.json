@@ -2,6 +2,30 @@
     "projects": [
         {
             "id": "1",
+            "src": "./img/CitizenHousing.png",
+            "title": "Citizen Housing",
+            "description": "Whilst at Mediaworks I worked within a small team to help deliver front-end and back-end development using Umbraco (.NET) and Tailwind for Citizen Housing, attracting thousands of monthly visitors and exceeding client expectations. This project also required a high focus on accessiblity which we were able to deliver.",
+            "linkTitle": "View Project",
+            "link": "https://www.citizenhousing.org.uk/"
+        },
+        {
+            "id": "2",
+            "src": "./img/WYCA-logo.jpg",
+            "title": "West Yorkshire Combined Authority",
+            "description": "This was another large enterprise project (At Mediaworks) using Umbraco (.NET), Tailwind where I was able to work with multiple other developers under short time contraints and create a product the client was happy with.",
+            "linkTitle": "View Project",
+            "link": "https://www.westyorks-ca.gov.uk/"
+        },
+        {
+            "id": "3",
+            "src": "./img/HEWY.png",
+            "title": "Home Energy West Yorkshire",
+            "description": "Second of the two large sites for West Yorkshire that I helped get over the line. Being able to work closely with other developers and create a site which allowed users to check the energy effiency of their home.",
+            "linkTitle": "View Project",
+            "link": "https://www.homeenergywestyorks.co.uk/"
+        },
+        {
+            "id": "4",
             "src": "./img/visitnorthumberland.png",
             "title": "Visit Northumberland",
             "description": "Whilst working at Drummond Central I was part of a development team on this project where I was working on the front-end.",
@@ -9,7 +33,7 @@
             "link": "https://www.visitnorthumberland.com/"
         },
         {
-            "id": "2",
+            "id": "5",
             "src": "./img/coquetbooks.png",
             "title": "Coquet Books",
             "description": "Whilst at Lazy Grace I was able to build this website myself from back-end to front-end using PHP with codeigniter.",
@@ -17,7 +41,7 @@
             "link": "https://www.coquetbooks.com/"
         },
         {
-            "id": "3",
+            "id": "6",
             "src": "./img/dissertation.png",
             "title": "Dissertation",
             "description": "For my dissertation I used data analysis and visualisation tools within Python to investigate the performace of railway data from a dataset.",
