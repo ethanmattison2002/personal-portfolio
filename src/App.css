@@ -458,6 +458,8 @@ h3 {
 
 .about--details--container > .about--containers {
   margin: 0 0 3rem 0;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .about--containers {
